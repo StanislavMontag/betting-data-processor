@@ -34,7 +34,7 @@ public class ResultWriter {
             writer.write("\n");
 
             // final casino balance
-            writer.write("Casino Balance: " + casinoBalance);
+            writer.write(String.valueOf(casinoBalance));
         }
     }
 }
